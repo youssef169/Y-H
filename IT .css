@@ -1,0 +1,171 @@
+html
+  {
+   background-image: url("https://luxfon.com/images/201203/luxfon.com_7727.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   color:#eee6dd;
+  }
+  .zero
+  {
+	border:3px solid #87593a;
+    padding:5px;
+    margin:3px;
+  }
+  .one
+  {
+	background-color:#87593a;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	padding:10px;
+  }
+  .tt
+	{
+		list-style:none;
+		padding:0;
+		margin:0;
+	}
+
+	.tt li
+	{
+		display:inline-block;
+		padding:0px 60px;
+	}
+	a
+	{
+		text-decoration:none;
+		font-family:fantasy;
+		color:#eee6dd;
+	}
+	a:hover
+	{
+		text-decoration:underline;
+	}
+	.ddd
+	{
+		font-size:25px;
+		
+	}
+  .h
+  {
+   background-color:#deccba;
+   padding:10px;
+   margin:20px auto auto;
+   width:400px;
+   font-size:20px;
+   color:black;
+   font-weight:700;
+   font-family:tahoma;
+   border-left:5px solid #87593a;
+   font-style:italic;
+   word-spacing:7px;
+  }
+  .r
+  {
+   background-color:#333;
+   color:#fff;
+   text-align:center;
+   padding:10px 0;
+  }
+  #two
+  {
+   border:3px solid #87593a;
+   padding:3px;
+   margin:3px;
+  }
+  #three
+  {
+   font-size:50px;
+   font-weight:bold;
+   text-align: center;
+  }
+  #four
+  {
+   background-color:#87593a;
+   color:white;
+   text-align:center;
+   padding:10px 0;
+  }
+  {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #87593a;
+  padding: 2px 16px;
+  color: white;
+  margin:3px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
